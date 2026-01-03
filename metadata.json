@@ -1,0 +1,8 @@
+{
+  "name": "Manutenzione Umbria",
+  "description": "Applicazione per la segnalazione e gestione delle manutenzioni sul territorio con supporto IA.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
