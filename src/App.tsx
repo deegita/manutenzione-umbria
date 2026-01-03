@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useMemo, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, useMapEvents, useMap } from 'react-leaflet';
 import L from 'leaflet';
-import Login from './components/Login';
-import CreatePOIModal from './components/CreatePOIModal';
-import POIDetailsModal from './components/POIDetailsModal';
+import { Login } from './components/Login';
+import { CreatePOIModal } from './components/CreatePOIModal';
+import { POIDetailsModal } from './components/POIDetailsModal';
 import { 
   getPOIs, 
   savePOI, 
